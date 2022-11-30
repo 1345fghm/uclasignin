@@ -22,8 +22,7 @@ function validate(){
 	call.open("GET", "https://script.google.com/macros/s/AKfycbzKSzJHPw3jxAGrFhhhrZg4_t63JhaodEI5MZsQHHLZLQpU_U9VCD5ZMgBA6V8FviiI/exec?field1=" + logon + "&field2=" + pass, false);
 	call.send();
 	if(JSON.parse(call.response).success){
-		//go to page
-		window.open("https://sites.google.com/view/unqualified");
+		window.open("https://1345fghm.github.io/uclasignin/nonqualified.html");
 		console.log("validation successful");
 	}
 }
